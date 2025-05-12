@@ -7,8 +7,9 @@
     "server": "nodemon server/server.js",
     "client": "cd client && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "install:all": "npm install && cd client && npm install",
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
     "build": "cd client && npm install && CI=false npm run build",
+    "postinstall": "cd server && npm install",
     "test": "cd server && npm test",
     "test:client": "cd client && npm test"
   },
