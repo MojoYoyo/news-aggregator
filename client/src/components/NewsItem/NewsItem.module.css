@@ -1,0 +1,238 @@
+/* client/src/components/NewsItem/NewsItem.module.css */
+.newsItem {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 20px;
+}
+
+.newsItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.imageContainer {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.newsItem:hover .image {
+  transform: scale(1.05);
+}
+
+.content {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 600;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.title a {
+  color: #16213e;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.title a:hover {
+  color: #e94560;
+}
+
+/* New Cluster Indicator Styles */
+.clusterIndicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  color: #2196F3;
+  background-color: rgba(33, 150, 243, 0.08);
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-right: 8px;
+  font-weight: normal;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.clusterIcon {
+  flex-shrink: 0;
+}
+
+.clusterLabel {
+  white-space: nowrap;
+}
+
+/* End Cluster Indicator Styles */
+
+.originalTitle {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.7rem;
+  font-style: italic;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.description {
+  margin: 0.7rem 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+  flex-grow: 1;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+.source {
+  font-weight: 500;
+  color: #0f3460;
+}
+
+.date {
+  color: #777;
+}
+
+.author {
+  font-style: italic;
+}
+
+/* Sentiment indicators */
+.sentimentIndicator {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.sentimentPositive {
+  background-color: rgba(52, 211, 153, 0.1);
+  color: #10b981;
+}
+
+.sentimentNeutral {
+  background-color: rgba(209, 213, 219, 0.2);
+  color: #6b7280;
+}
+
+.sentimentNegative {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+/* Source indicator dots */
+.newsItem[data-source="guardian"] .source::before,
+.newsItem[data-source="the-guardian-world"] .source::before,
+.newsItem[data-source="the-guardian-top-stories"] .source::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #005689;
+  margin-right: 6px;
+}
+
+.newsItem[data-source="nytimes"] .source::before,
+.newsItem[data-source="nyt-world"] .source::before,
+.newsItem[data-source="nyt-home-page"] .source::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #000000;
+  margin-right: 6px;
+}
+
+.newsItem[data-source="bbc-news"] .source::before,
+.newsItem[data-source="bbc-world"] .source::before,
+.newsItem[data-source="bbc-front-page"] .source::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #bb1919;
+  margin-right: 6px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 1.1rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+  
+  .clusterIndicator {
+    margin-bottom: 4px;
+    font-size: 0.7rem;
+  }
+}
+
+/* For very small screens, make the cluster indicator more compact */
+@media (max-width: 400px) {
+  .clusterLabel {
+    display: none; /* Hide text, just show icon */
+  }
+  
+  .clusterIndicator {
+    padding: 2px;
+  }
+}
+
+.newItem {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.newIndicator {
+  display: inline-block;
+  color: #2563eb; /* Blue text color */
+  font-weight: bold;
+  margin-left: 5px;
+}

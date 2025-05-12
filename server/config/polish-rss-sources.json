@@ -1,0 +1,218 @@
+[
+    {
+      "id": "businessinsider-pl",
+      "name": "Business Insider Polska",
+      "url": "https://businessinsider.com.pl/.feed",
+      "category": "business"
+    },
+    {
+      "id": "rmf24",
+      "name": "RMF 24",
+      "url": "https://www.rmf24.pl/fakty/feed",
+      "category": "general"
+    },
+    {
+      "id": "money-pl",
+      "name": "Money.pl",
+      "url": "https://www.money.pl/rss/",
+      "category": "business"
+    },
+    {
+      "id": "tvn24-najnowsze",
+      "name": "TVN 24 Najnowsze",
+      "url": "https://www.tvn24.pl/najnowsze.xml",
+      "category": "general"
+    },
+    {
+      "id": "tvn24-najwazniejsze",
+      "name": "TVN 24 Najważniejsze",
+      "url": "https://www.tvn24.pl/najwazniejsze.xml",
+      "category": "general"
+    },
+    {
+      "id": "gazeta.pl",
+      "name": "Gazeta.pl",
+      "url": "https://www.gazeta.pl/pub/rss/wiadomosci.xml",
+      "category": "general"
+    },
+    {
+      "id": "gazeta-wyborcza-world",
+      "name": "Gazeta Wyborcza Świat",
+      "url": "http://rss.gazeta.pl/pub/rss/gazetawyborcza_swiat.xml",
+      "category": "world"
+    },
+    {
+      "id": "gazeta-wyborcza-new",
+      "name": "Gazeta Wyborcza Najnowsze",
+      "url": "http://rss.gazeta.pl/pub/rss/najnowsze_wyborcza.xml",
+      "category": "general"
+    },
+    {
+      "id": "interia",
+      "name": "Interia Wydarzenia",
+      "url": "https://wydarzenia.interia.pl/feed",
+      "category": "general"
+    },
+    {
+      "id": "polsat-pl",
+      "name": "Polsat Polska",
+      "url": "https://www.polsatnews.pl/rss/polska.xml",
+      "category": "general"
+    },
+    {
+      "id": "polsat-world",
+      "name": "Polsat Świat",
+      "url": "https://www.polsatnews.pl/rss/swiat.xml",
+      "category": "world"
+    },
+    {
+      "id": "polsat-all",
+      "name": "Polsat Wszystkie",
+      "url": "https://www.polsatnews.pl/rss/wszystkie.xml",
+      "category": "general"
+    },
+    {
+      "id": "onet",
+      "name": "Onet",
+      "url": "https://wiadomosci.onet.pl/.feed",
+      "category": "general"
+    },
+    {
+      "id": "bankier",
+      "name": "Bankier",
+      "url": "https://www.bankier.pl/rss/wiadomosci.xml",
+      "category": "business"
+    },
+    {
+      "id": "gazetaprawna",
+      "name": "Gazeta Prawna",
+      "url": "https://www.gazetaprawna.pl/.feed",
+      "category": "general"
+    },
+    {
+      "id": "rzeczpospolita",
+      "name": "Rzeczpospolita",
+      "url": "https://www.rp.pl/rss_main",
+      "category": "general"
+    },
+    {
+      "id": "tvp-info",
+      "name": "TVP Info",
+      "url": "https://news.google.com/rss/search?q=site:tvp.info+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "general"
+    },
+    {
+      "id": "tvp-info-polska",
+      "name": "TVP Info Polska",
+      "url": "https://news.google.com/rss/search?q=site:tvp.info+polska+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "general"
+    },
+    {
+      "id": "tvp-info-world",
+      "name": "TVP Info Świat",
+      "url": "https://news.google.com/rss/search?q=site:tvp.info+swiat+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "world"
+    },
+    {
+      "id": "radio-zet",
+      "name": "Radio Zet",
+      "url": "https://news.google.com/rss/search?q=site:wiadomosci.radiozet.pl+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "general"
+    },
+    {
+      "id": "fakt-najnowsze",
+      "name": "Fakt Najnowsze",
+      "url": "https://news.google.com/rss/search?q=site:fakt.pl+najnowsze+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "general"
+    },
+    {
+      "id": "fakt-polska",
+      "name": "Fakt Polska",
+      "url": "https://news.google.com/rss/search?q=site:fakt.pl+wydarzenia/polska+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "poland"
+    },
+    {
+      "id": "fakt-swiat",
+      "name": "Fakt Świat",
+      "url": "https://news.google.com/rss/search?q=site:fakt.pl+wydarzenia/swiat+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "world"
+    },
+    {
+      "id": "miejski-reporter",
+      "name": "Miejski Reporter",
+      "url": "https://news.google.com/rss/search?q=site:miejskireporter.pl+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "local"
+    },
+    {
+      "id": "forbes-pl-all",
+      "name": "Forbes Polska",
+      "url": "https://news.google.com/rss/search?q=site:forbes.pl+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "business"
+    },
+    {
+      "id": "forbes-pl-biznes",
+      "name": "Forbes Biznes",
+      "url": "https://news.google.com/rss/search?q=site:forbes.pl+biznes+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "business"
+    },
+    {
+      "id": "forbes-pl-gospodarka",
+      "name": "Forbes Gospodarka",
+      "url": "https://news.google.com/rss/search?q=site:forbes.pl+gospodarka+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "economy"
+    },
+    {
+      "id": "forbes-pl-swiat",
+      "name": "Forbes Świat",
+      "url": "https://news.google.com/rss/search?q=site:forbes.pl+swiat+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "world"
+    },
+    {
+      "id": "donald",
+      "name": "Donald.pl",
+      "url": "https://news.google.com/rss/search?q=site:donald.pl+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "poland"
+    },
+    {
+      "id": "policja",
+      "name": "Policja",
+      "url": "https://news.google.com/rss/search?q=site:policja.pl+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "poland"
+    },
+    {
+      "id": "wp",
+      "name": "WP",
+      "url": "https://wiadomosci.wp.pl/rss.xml",
+      "category": "general"
+    },
+    {
+      "id": "na-temat",
+      "name": "Na Temat",
+      "url": "https://natemat.pl/rss/wszystkie",
+      "category": "general"
+    },
+    {
+      "id": "do-rzeczy",
+      "name": "Do Rzeczy",
+      "url": "https://dorzeczy.pl/feed",
+      "category": "general"
+    },
+    {
+      "id": "puls-biznesu",
+      "name": "Puls Biznesu",
+      "url": "https://www.pb.pl/rss/najnowsze.xml?utm_source=RSS&utm_medium=RSS&utm_campaign=Z%20ostatniej%20chwili",
+      "category": "economy"
+    },
+    {
+      "id": "newsweek",
+      "name": "Newsweek",
+      "url": "https://news.google.com/rss/search?q=site:newsweek.pl+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "general"
+    },
+    {
+      "id": "polityka",
+      "name": "Polityka",
+      "url": "https://news.google.com/rss/search?q=site:polityka.pl+when:24h&hl=pl&gl=PL&ceid=PL:pl",
+      "category": "general"
+    }
+  ]

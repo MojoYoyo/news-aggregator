@@ -1,0 +1,206 @@
+[
+    {
+      "id": "the-guardian-world",
+      "name": "The Guardian World",
+      "url": "https://www.theguardian.com/world/rss",
+      "category": "world"
+    },
+    {
+      "id": "the-guardian-europe",
+      "name": "The Guardian Europe",
+      "url": "https://www.theguardian.com/world/europe-news/rss",
+      "category": "europe"
+    },
+    {
+      "id": "the-guardian-usa",
+      "name": "The Guardian USA",
+      "url": "https://www.theguardian.com/us-news/rss",
+      "category": "usa"
+    },
+    {
+      "id": "the-guardian-top-stories",
+      "name": "The Guardian Top Stories",
+      "url": "https://www.theguardian.com/uk/rss",
+      "category": "general"
+    },
+    {
+      "id": "nyt-home-page",
+      "name": "The New York Times Home Page",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "category": "general"
+    },
+    {
+      "id": "nyt-world",
+      "name": "The New York Times World",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "category": "world"
+    },
+    {
+      "id": "nyt-europe",
+      "name": "The New York Times Europe",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml",
+      "category": "europe"
+    },
+    {
+      "id": "nyt-us",
+      "name": "The New York Times USA",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
+      "category": "usa"
+    },
+    {
+      "id": "bbc-front-page",
+      "name": "BBC Front Page",
+      "url": "https://feeds.bbci.co.uk/news/rss.xml",
+      "category": "general"
+    },
+    {
+      "id": "bbc-world",
+      "name": "BBC World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "world"
+    },
+    {
+      "id": "bbc-business",
+      "name": "BBC Business",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "category": "business"
+    },
+    {
+      "id": "yahoo-news-world",
+      "name": "Yahoo News World",
+      "url": "https://news.yahoo.com/rss/world",
+      "category": "world"
+    },
+    {
+      "id": "yahoo-news-all",
+      "name": "Yahoo News",
+      "url": "https://news.yahoo.com/rss",
+      "category": "general"
+    },
+    {
+      "id": "washington-post-world",
+      "name": "Washington Post World",
+      "url": "https://feeds.washingtonpost.com/rss/world",
+      "category": "world"
+    },
+    {
+      "id": "washington-post-business",
+      "name": "Washington Post Business",
+      "url": "https://feeds.washingtonpost.com/rss/business",
+      "category": "business"
+    },
+    {
+      "id": "washington-post-national",
+      "name": "Washington Post National",
+      "url": "https://feeds.washingtonpost.com/rss/national",
+      "category": "usa"
+    },
+    {
+      "id": "wsj-world",
+      "name": "Wall Street Journal World",
+      "url": "https://feeds.content.dowjones.io/public/rss/RSSWorldNews",
+      "category": "world"
+    },
+    {
+      "id": "wsj-usa",
+      "name": "Wall Street Journal USA",
+      "url": "https://feeds.content.dowjones.io/public/rss/RSSUSnews",
+      "category": "usa"
+    },
+    {
+      "id": "wsj-economy",
+      "name": "Wall Street Journal Economy",
+      "url": "https://feeds.content.dowjones.io/public/rss/socialeconomyfeed",
+      "category": "economy"
+    },
+    {
+      "id": "wsj-politics",
+      "name": "Wall Street Journal Politics",
+      "url": "https://feeds.content.dowjones.io/public/rss/socialpoliticsfeed",
+      "category": "politics"
+    },
+    {
+      "id": "bloomberg-politics",
+      "name": "Bloomberg Politics",
+      "url": "https://feeds.bloomberg.com/politics/news.rss",
+      "category": "politics"
+    },
+    {
+      "id": "bloomberg-economy",
+      "name": "Bloomberg Economy",
+      "url": "https://feeds.bloomberg.com/economics/news.rss",
+      "category": "economy"
+    },
+    {
+      "id": "bloomberg-business",
+      "name": "Bloomberg Business",
+      "url": "https://feeds.bloomberg.com/business/news.rss",
+      "category": "business"
+    },
+    {
+      "id": "forbes-all",
+      "name": "Forbes",
+      "url": "https://news.google.com/rss/search?q=site:forbes.com+when:24h&hl=en&gl=US&ceid=US:en",
+      "category": "business"
+    },
+    {
+      "id": "forbes-business",
+      "name": "Forbes Business",
+      "url": "https://news.google.com/rss/search?q=site:forbes.com+business+when:24h&hl=en&gl=US&ceid=US:en",
+      "category": "business"
+    },
+    {
+      "id": "forbes-world",
+      "name": "Forbes World",
+      "url": "https://news.google.com/rss/search?q=site:forbes.com+world+when:24h&hl=en&gl=US&ceid=US:en",
+      "category": "world"
+    },
+    {
+      "id": "deutsche-welle-world",
+      "name": "Deutsche Welle World",
+      "url": "https://rss.dw.com/xml/rss-en-all",
+      "category": "world"
+    },
+    {
+      "id": "deutsche-welle-eu",
+      "name": "Deutsche Welle EU",
+      "url": "https://rss.dw.com/xml/rss-en-eu",
+      "category": "general"
+    },
+    {
+      "id": "france24",
+      "name": "France24",
+      "url": "https://www.france24.com/en/rss",
+      "category": "general"
+    },
+    {
+      "id": "euronews",
+      "name": "EuroNews",
+      "url": "https://www.euronews.com/rss",
+      "category": "general"
+    },
+    {
+      "id": "der-spiegel",
+      "name": "Der Spiegel",
+      "url": "https://www.spiegel.de/international/index.rss",
+      "category": "general"
+    },
+    {
+      "id": "scmp",
+      "name": "South China Morning Post",
+      "url": "https://www.scmp.com/rss/91/feed",
+      "category": "general"
+    },
+    {
+      "id": "tjp",
+      "name": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/feed/",
+      "category": "general"
+    },
+    {
+      "id": "moscow-times",
+      "name": "Moscow Times",
+      "url": "https://www.themoscowtimes.com/rss/news",
+      "category": "general"
+    }
+  ]

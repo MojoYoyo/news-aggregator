@@ -1,0 +1,149 @@
+/* Add these to client/src/components/NewsList/NewsList.module.css */
+
+.newsHeader {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.controlsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.togglesContainer {
+  display: flex;
+  gap: 50px; /* Increased space between toggles */
+  align-items: center;
+}
+
+.toggleLabel {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  user-select: none;
+  padding-right: 10px;
+}
+
+/* Optional separator between toggles */
+.toggleLabel:first-child {
+  position: relative;
+}
+
+.toggleLabel:first-child::after {
+  content: "";
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  height: 24px;
+  width: 1px;
+  background-color: #e5e7eb;
+  transform: translateY(-50%);
+}
+
+.toggleSwitch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.toggleSwitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggleSlider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.toggleSlider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .toggleSlider {
+  background-color: #2196F3;
+}
+
+input:focus + .toggleSlider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .toggleSlider:before {
+  transform: translateX(26px);
+}
+
+.lastCheckedInfo {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.newContentBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #EBF5FF;
+  border: 1px solid #BFDBFE;
+  border-radius: 8px;
+  color: #1D4ED8;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.newContentBanner:hover {
+  background-color: #DBEAFE;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 640px) {
+  .controlsContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .lastCheckedInfo {
+    margin-top: 10px;
+  }
+  
+  .togglesContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  /* Remove separator on mobile */
+  .toggleLabel:first-child::after {
+    display: none;
+  }
+}

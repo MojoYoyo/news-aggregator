@@ -1,0 +1,46 @@
+/* client/src/components/SourceSearch/SourceSearch.module.css */
+.sourceSearch {
+    position: relative;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.5rem;
+    padding-right: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+  }
+  
+  .input:focus {
+    border-color: #1890ff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }
+  
+  .clearButton {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #999;
+    cursor: pointer;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .clearButton:hover {
+    color: #666;
+    background-color: #f0f0f0;
+  }

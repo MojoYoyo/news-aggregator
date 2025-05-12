@@ -1,0 +1,31 @@
+{
+  "name": "news-aggregator",
+  "version": "1.0.0",
+  "description": "Global News Aggregator with Clean Architecture",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install:all": "npm install && cd client && npm install",
+    "build": "cd client && npm run build",
+    "test": "cd server && npm test",
+    "test:client": "cd client && npm test"
+  },
+  "keywords": [
+    "news",
+    "aggregator",
+    "react",
+    "express",
+    "clean-architecture"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
